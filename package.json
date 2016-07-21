@@ -1,22 +1,35 @@
 {
-  "name": "chinese-s2t",
-  "version": "0.0.1",
-  "description": "Simplfied and Traditional Chinese Converter",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/foru17/chinese-s2t.git"
-  },
-  "keywords": [
-    "chinese"
-  ],
-  "author": "@foru17",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/foru17/chinese-s2t/issues"
-  },
-  "homepage": "https://github.com/foru17/chinese-s2t#readme"
+    "name": "chinese-s2t",
+    "version": "0.0.3",
+    "description": "Simplfied and Traditional Chinese Converter",
+    "main": "index.js",
+    "homepage": "https://github.com/foru17/chinese-s2t",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/foru17/chinese-s2t.git"
+    },
+    "keywords": [
+        "chinese"
+    ],
+    "author": {
+        "name": "@foru17"
+    },
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/foru17/chinese-s2t/issues"
+    },
+    "homepage": "https://github.com/foru17/chinese-s2t#readme",
+    "readme": "简繁体转换模块\n=======\n\n双向转换",
+    "readmeFilename": "README.md",
+    "gitHead": "15b3d83106dc47abdb114018fb3935af87a780e1",
+    "_id": "chinese-s2t@0.0.1",
+    "_shasum": "637c25a1406ca924a9e42bcfdfbd816d8ee3c1fe",
+    "_from": "chinese-s2t@*",
+    "_npmUser": {
+        "name": "foru17",
+        "email": "meleilei@gmail.com"
+    }
 }
