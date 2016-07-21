@@ -1,0 +1,22 @@
+{
+  "name": "chinese-s2t",
+  "version": "0.0.1",
+  "description": "Simplfied and Traditional Chinese Converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foru17/chinese-s2t.git"
+  },
+  "keywords": [
+    "chinese"
+  ],
+  "author": "@foru17",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foru17/chinese-s2t/issues"
+  },
+  "homepage": "https://github.com/foru17/chinese-s2t#readme"
+}
