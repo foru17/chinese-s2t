@@ -70,7 +70,6 @@ function tranStr(str, toT) {
 }
 
 
-
 var Chinese = {
 	s2t:function(string){
         console.log('轉繁體');
