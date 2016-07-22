@@ -1,6 +1,6 @@
 {
     "name": "chinese-s2t",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "Simplfied and Traditional Chinese Converter",
     "main": "index.js",
     "homepage": "https://github.com/foru17/chinese-s2t",
@@ -15,7 +15,7 @@
         "chinese"
     ],
     "author": {
-        "name": "@foru17"
+        "name": "@foru17 <meleilei@gmail.com>"
     },
     "license": "ISC",
     "bugs": {
