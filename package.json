@@ -1,6 +1,6 @@
 {
     "name": "chinese-s2t",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "Simplfied and Traditional Chinese Converter",
     "main": "index.js",
     "homepage": "https://github.com/foru17/chinese-s2t",
@@ -22,7 +22,6 @@
         "url": "https://github.com/foru17/chinese-s2t/issues"
     },
     "homepage": "https://github.com/foru17/chinese-s2t#readme",
-    "readme": "简繁体转换模块\n=======\n\n双向转换",
     "readmeFilename": "README.md",
     "gitHead": "15b3d83106dc47abdb114018fb3935af87a780e1",
     "_id": "chinese-s2t@0.0.1",
