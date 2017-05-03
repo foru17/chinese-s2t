@@ -72,11 +72,9 @@ function tranStr(str, toT) {
 
 var Chinese = {
 	s2t:function(string){
-        console.log('轉繁體');
 		return tranStr(string,true)
 	},
 	t2s:function(string){
-        console.log('转简体');
 		return tranStr(string,false)
 	}
 }
