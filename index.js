@@ -71,10 +71,10 @@ function tranStr (str, toT) {
 
 
 var Chinese = {
-    s2t:function(str){
+    s2t:function (str){
 		return tranStr(str,true)
 	},
-	t2s:function(str){
+	t2s:function (str){
 		return tranStr(str,false)
 	}
 }
