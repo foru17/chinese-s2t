@@ -1,3 +1,6 @@
+# chinese-s2t [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![dependencies Status](https://david-dm.org/foru17/chinese-s2t/status.svg)](https://david-dm.org/foru17/chinese-s2t) [![devDependencies Status](https://david-dm.org/scniro/gulp-clean-css/dev-status.svg)](https://david-dm.org/scniro/gulp-clean-css?type=dev)
+
+
 # 关于
 
 简单的字符串替换的简繁体转换模块
@@ -19,7 +22,6 @@ Chinese.t2s('繁体转简体');
 
 
 #### 转换成繁体
-
 
 
 ```js
@@ -46,3 +48,8 @@ console.log(s2tResult)
 
 ```
 
+
+[npm-url]: https://npmjs.org/package/chinese-s2t
+[npm-image]: http://img.shields.io/npm/v/chinese-s2t.svg?style=flat
+[travis-url]: https://travis-ci.org/foru17/chinese-s2t
+[travis-image]: https://travis-ci.org/foru17/chinese-s2t.svg?branch=master

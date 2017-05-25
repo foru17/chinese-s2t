@@ -54,6 +54,7 @@ function tranStr (str, toT) {
         isChinese = (code > 0x3400 && code < 0x9FC3) || (code > 0xF900 && code < 0xFA6A);
         if (!isChinese) {
             result += letter;
+            continue;
         }
 
         index = src.indexOf(letter);
