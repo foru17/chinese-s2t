@@ -6,18 +6,17 @@
 
 'use strict';
 
-var Zh_Data = require('./lang/zh.js');
+var zhData = require('./lang/zh.js');
 
 /**
  * 简体字
  */
-var S = Zh_Data.S;
+var S = zhData.S;
 
 /**
  * 繁体字
  */
-var T = Zh_Data.T;
-
+var T = zhData.T;
 
 /**
  * 转换文本
@@ -25,13 +24,15 @@ var T = Zh_Data.T;
  * @param {Boolean} toT - 是否转换成繁体
  * @returns {String} - 转换结果
  */
-function tranStr(str, toT) {
+
+function tranStr (str, toT) {
     var i;
     var letter;
     var code;
     var isChinese;
     var index;
-    var src, des;
+    var src;
+    var des;
     var result = '';
 
     if (toT) {
@@ -42,7 +43,7 @@ function tranStr(str, toT) {
         des = S;
     }
 
-    if (typeof str !== "string") {
+    if (typeof str !== 'string') {
         return str;
     }
 
@@ -51,10 +52,8 @@ function tranStr(str, toT) {
         code = str.charCodeAt(i);
         // 根据字符的Unicode判断是否为汉字，以提高性能
         isChinese = (code > 0x3400 && code < 0x9FC3) || (code > 0xF900 && code < 0xFA6A);
-
         if (!isChinese) {
             result += letter;
-            continue;
         }
 
         index = src.indexOf(letter);
@@ -71,11 +70,11 @@ function tranStr(str, toT) {
 
 
 var Chinese = {
-	s2t:function(string){
-		return tranStr(string,true)
+    s2t:function(str){
+		return tranStr(str,true)
 	},
-	t2s:function(string){
-		return tranStr(string,false)
+	t2s:function(str){
+		return tranStr(str,false)
 	}
 }
 
