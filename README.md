@@ -1,5 +1,4 @@
-# chinese-s2t [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![dependencies Status](https://david-dm.org/foru17/chinese-s2t/status.svg)](https://david-dm.org/foru17/chinese-s2t) 
-
+# chinese-s2t [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] 
 
 # About
 
