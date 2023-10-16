@@ -23,7 +23,7 @@ Chinese.t2s('繁体转简体');
 #### 转换成繁体
 
 
-```js
+```
 
 var Chinese = require('chinese-s2t')
 
@@ -36,7 +36,7 @@ console.log(s2tResult)
 
 #### 转换成简体
 
-```js
+```
 var Chinese = require('chinese-s2t')
 
 var s2tResult = Chinese.t2s('我們被教導記住思想，而不是人，因為人可能失敗，他可能會被捕，他會被殺死，被遺忘，但400年後，思想仍可改變世界，我親眼目睹了，思想的威力，我見過人們以它為名殺戮，或是為了它獻出生命，但你不能親吻思想，也不能觸摸它，或擁抱它，思想不會流血，不會感到痛苦，它們沒有愛！')

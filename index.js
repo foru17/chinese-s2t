@@ -25,7 +25,7 @@ var T = zhData.T;
  * @returns {String} - 转换结果
  */
 
-function tranStr (str, toT) {
+function tranStr(str, toT) {
     var i;
     var letter;
     var code;
@@ -50,7 +50,7 @@ function tranStr (str, toT) {
     for (i = 0; i < str.length; i++) {
         letter = str.charAt(i);
         code = str.charCodeAt(i);
-        // 根据字符的Unicode判断是否为汉字，以提高性能
+        // 根据字符的 Unicode 判断是否为汉字，以提高性能
         isChinese = (code > 0x3400 && code < 0x9FC3) || (code > 0xF900 && code < 0xFA6A);
         if (!isChinese) {
             result += letter;
@@ -71,12 +71,12 @@ function tranStr (str, toT) {
 
 
 var Chinese = {
-    s2t:function (str){
-		return tranStr(str,true)
-	},
-	t2s:function (str){
-		return tranStr(str,false)
-	}
+    s2t: function(str) {
+        return tranStr(str, true)
+    },
+    t2s: function(str) {
+        return tranStr(str, false)
+    }
 }
 
 module.exports = Chinese;
